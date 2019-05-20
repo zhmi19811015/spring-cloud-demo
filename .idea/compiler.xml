@@ -9,23 +9,37 @@
         <module name="eureka-server" />
         <module name="gateway-server" />
         <module name="nacos-server" />
+        <module name="server-eureka" />
+        <module name="server-gateway" />
+        <module name="server-nacos" />
+        <module name="server-zuul" />
+        <module name="service-a" />
+        <module name="service-common" />
         <module name="service-feign" />
         <module name="service-hi" />
         <module name="service-ming" />
         <module name="service-ribbon" />
         <module name="service-zuul" />
+        <module name="vue-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka-server" target="1.8" />
       <module name="gateway-server" target="1.8" />
       <module name="nacos-server" target="1.8" />
+      <module name="server-eureka" target="1.8" />
+      <module name="server-gateway" target="1.8" />
+      <module name="server-nacos" target="1.8" />
+      <module name="server-zuul" target="1.8" />
+      <module name="service-a" target="1.8" />
+      <module name="service-common" target="1.8" />
       <module name="service-feign" target="1.8" />
       <module name="service-hi" target="1.8" />
       <module name="service-ming" target="1.8" />
       <module name="service-ribbon" target="1.8" />
       <module name="service-zuul" target="1.8" />
       <module name="spring-cloud-demo" target="1.8" />
+      <module name="vue-test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

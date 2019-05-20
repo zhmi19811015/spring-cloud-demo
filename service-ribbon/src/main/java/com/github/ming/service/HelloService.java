@@ -18,7 +18,10 @@ public class HelloService {
      */
     @HystrixCommand(fallbackMethod = "hiError")
     public String hiService(String name) {
-        return restTemplate.getForObject("http://SERVICE-HI/hi?name="+name,String.class);
+        //两种都可以，第二参数返回类型
+        //return restTemplate.getForObject("http://SERVICE-HI/hi?name="+name,String.class);
+        //参数 url 返回对象  参数
+        return restTemplate.getForEntity("http://SERVICE-HI/hi?name={1}",String.class,name).getBody();
     }
 
     public String hiError(String name) {

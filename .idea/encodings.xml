@@ -2,14 +2,16 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/gateway-server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/gateway-server/src/main" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/nacos-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server-gateway/src/main" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server-nacos" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-a" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-feign" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/service-hi" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-ming" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-ribbon" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/service-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/vue-test" charset="UTF-8" />
   </component>
 </project>
