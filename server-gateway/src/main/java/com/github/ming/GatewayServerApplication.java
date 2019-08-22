@@ -1,5 +1,7 @@
 package com.github.ming;
 
+import com.github.ming.filter.RequestTimeGatewayFilterFactory;
+import com.github.ming.filter.TokenFilter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -17,5 +19,10 @@ public class GatewayServerApplication {
 	@Bean
 	public RequestTimeGatewayFilterFactory requestTimeGatewayFilterFactory() {
 		return new RequestTimeGatewayFilterFactory();
+	}
+
+	@Bean
+	public TokenFilter tokenFilter(){
+		return new TokenFilter();
 	}
 }

@@ -7,4 +7,8 @@ spring:
     nacos:
       discovery:
         server-addr: 10.211.55.101:8848
+  zipkin:
+    base-url: http://localhost:8987
+#    sender:
+#      type: web
 #eureka.client.service-url.defaultZone=http://localhost:1111/eureka/

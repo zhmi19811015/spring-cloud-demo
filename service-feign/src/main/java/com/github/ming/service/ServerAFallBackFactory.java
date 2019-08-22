@@ -14,16 +14,16 @@ import org.springframework.stereotype.Component;
 @Component
 public class ServerAFallBackFactory implements FallbackFactory<FeignServerA> {
 
-    private final FeignServerAImpl feignServerA;
+    private final FeignServerAImpl feignServerAImpl;
 
-    public ServerAFallBackFactory(FeignServerAImpl feignServerA){
-        this.feignServerA = feignServerA;
+    public ServerAFallBackFactory(FeignServerAImpl feignServerAImpl){
+        this.feignServerAImpl = feignServerAImpl;
     }
 
     @Override
     public FeignServerA create(Throwable throwable) {
         throwable.printStackTrace();
-        return feignServerA;
+        return feignServerAImpl;
     }
 
 }

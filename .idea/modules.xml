@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/server-admin/server-admin.iml" filepath="$PROJECT_DIR$/server-admin/server-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/server-eureka/server-eureka.iml" filepath="$PROJECT_DIR$/server-eureka/server-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/server-gateway/server-gateway.iml" filepath="$PROJECT_DIR$/server-gateway/server-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/server-nacos/server-nacos.iml" filepath="$PROJECT_DIR$/server-nacos/server-nacos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-zipkin/server-zipkin.iml" filepath="$PROJECT_DIR$/server-zipkin/server-zipkin.iml" />
       <module fileurl="file://$PROJECT_DIR$/server-zuul/server-zuul.iml" filepath="$PROJECT_DIR$/server-zuul/server-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-a/service-a.iml" filepath="$PROJECT_DIR$/service-a/service-a.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-common/service-common.iml" filepath="$PROJECT_DIR$/service-common/service-common.iml" />

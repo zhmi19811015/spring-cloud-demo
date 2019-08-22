@@ -7,10 +7,16 @@ spring:
     nacos:
       discovery:
         server-addr: 10.211.55.101:8848
+  zipkin:
+    base-url: http://localhost:8987
+        #log-name: test.log
 #feigin断路器启用
 feign:
   hystrix:
     enabled:  true
+#logging:
+#  level:
+#    root: DEBUG
 #    client:
 #      default-config:  my-config
 #      config:

@@ -1,7 +1,6 @@
 package com.github.ming.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -19,7 +18,7 @@ public class TestController {
 
     @RequestMapping(value = "/echo/{str}", method = RequestMethod.GET)
     public String echo(@PathVariable String str) {
-        return restTemplate.getForObject("http://nacos-server/config/echo/" + str, String.class);
+        return restTemplate.getForObject("http://server-nacos/config/echo/" + str, String.class);
     }
 
 }

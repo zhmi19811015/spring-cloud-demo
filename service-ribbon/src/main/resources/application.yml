@@ -1,0 +1,10 @@
+server:
+  port: 8811
+spring:
+  application:
+    name: service-ribbon
+  cloud:
+      nacos:
+        discovery:
+          server-addr: 10.211.55.101:8848
+#eureka.client.service-url.defaultZone=http://localhost:1111/eureka/

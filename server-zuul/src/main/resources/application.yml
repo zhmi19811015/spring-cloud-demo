@@ -1,0 +1,17 @@
+server:
+  port: 8715
+spring:
+  application:
+    name: server-zuul
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 10.211.55.101:8848
+zuul:
+  routes:
+    api-a:
+      path: /api-a/**
+      serviceId:  service-ribbon
+    api-b:
+      path: /api-b/**
+      serviceId:  service-feign
